@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+
+.dark-primary-color    { background: #FBC02D; }
+.default-primary-color { background: #FFEB3B; }
+.light-primary-color   { background: #FFF9C4; }
+.text-primary-color    { color: #212121; }
+.accent-color          { background: #122d98; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #757575; }
+.divider-color         { border-color: #BDBDBD; }

@@ -1,0 +1,42 @@
+
+.logo{
+	width: 120px;
+}
+.nav-logo{
+	padding: 0px 70px 20px 20px;
+}
+
+.navbar{
+	margin-bottom: 0px;
+}
+.nav-headings{
+	font-family: myriad-light;
+	font-size: 140%;
+	padding-top: 1%;
+}
+nav .nav-pills> li > a:hover,  .nav-pills> li > a:focus {
+    background-color: #FFFFFF;
+    color: #FFC0CB;
+}
+nav .nav-pills> li > a:after {
+  content: '';
+  width: 0;
+  height: 0;
+  top: 74px;
+  left: 50%;
+  bottom: 0;
+  margin-left: -20px;
+  border-color: blue transparent transparent transparent;
+  border-style: solid;
+  position: absolute;
+  border-width: 20px;
+  display: none;
+}
+.tabs_accordion ul.tabs li:hover label:after,
+.tabs_accordion ul.tabs li.activeTab label:after {
+  display: block;
+}
+nav .nav-pills> li > a:hover a:after,
+nav .nav-pills> li.activeTab > a:after {
+  display: block;
+}
